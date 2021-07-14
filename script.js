@@ -35,7 +35,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
           }
         }).then(function () {
           const pertanyaan = Swal.fire({
-            title: `${nama} sayang ga sama ${sender}?`,
+            title: `${nama} Cinta ga sama ${sender}?`,
             showDenyButton: true,
             showCancelButton: false,
             confirmButtonText: `Cinta`,
@@ -43,9 +43,9 @@ document.querySelector(".tombol").addEventListener('click', function () {
           }).then((result) => {
             /* Read more about isConfirmed, isDenied below */
             if (result.isConfirmed) {
-              Swal.fire(`${sender} juga cinta banget sama ${nama}`).then(function () {
+              Swal.fire(`${sender} juga Cinta banget sama ${nama}`).then(function () {
                 Swal.fire({
-                  title: 'Seberapa cinta emangnya?',
+                  title: 'Seberapa Cinta emangnya?',
                   icon: 'question',
                   input: 'range',
                   inputLabel: 'Antara 1 - 100 ya',
@@ -57,7 +57,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                   inputValue: 50
                 }).then((e) => {
                   val = e.value
-                  Swal.fire(`Makasih ya udah cinta sama ${sender} ${val}%`).then(function () {
+                  Swal.fire(`Makasih ya udah Cinta sama ${sender} ${val}%`).then(function () {
                     Swal.fire({
                       title: `Sekarang ${nama} mau ga nikah sama ${sender}?`,
                       showDenyButton: true,
