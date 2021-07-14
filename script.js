@@ -62,12 +62,12 @@ document.querySelector(".tombol").addEventListener('click', function () {
                       title: `Sekarang ${nama} mau ga nikah sama ${sender}?`,
                       showDenyButton: true,
                       showCancelButton: false,
-                      confirmButtonText: `Mau dong:(`,
+                      confirmButtonText: `Mau dong :)`,
                       denyButtonText: `Gak!`,
                     }).then((result) => {
                       /* Read more about isConfirmed, isDenied below */
                       if (result.isConfirmed) {
-                        Swal.fire(`Huhu iya ${sender} juga mau nikah sama ${nama} :((`).then(function () {
+                        Swal.fire(`Huhu iya ${sender} juga mau nikah sama ${nama} :)`).then(function () {
                           Swal.fire('Terakhir deh').then(function () {
                             Swal.fire('Coba klik ikon hati di paling bawah dong')
                           })
