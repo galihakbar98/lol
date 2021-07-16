@@ -15,7 +15,7 @@ footer.innerHTML = sender;
 footer.href = "https://www.instagram.com/galih.akbar98/";
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hallo Sayangku", "Abang ada pertanyaan nih buat adek?", "question").then(function () {
+  Swal.fire("Hallo Sayangku", "Kakak ada pertanyaan nih buat adek?", "question").then(function () {
     Swal.fire("Jawab yang jujur ya!").then(function () {
       Swal.fire("Awas aja kalo boong!!", "", "error").then(function () {
 
